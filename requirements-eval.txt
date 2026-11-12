@@ -1,0 +1,6 @@
+# tools/melcp.py（メルケプストラム歪みの計算）を使うときだけ追加で入れる
+-r requirements.txt
+pyworld
+pysptk
+nnmnkwii
+dtw

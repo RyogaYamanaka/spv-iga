@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# 録音・推定結果は個人データなのでコミットしない（フォルダ構成だけ残す）
+data/**
+!data/**/
+!data/**/.gitkeep
+*.wav
+
+# 推定結果のパラメータ
+param_*.txt
